@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri');
+body{
+	font-family: 'El Messiri', sans-serif;
+	font-size:14px;
+	line-height:20px;
+	text-align: justify;
+	background:url(images/bg.jpg) fixed no-repeat;
+	background-size:cover;
+}
+.container-fluid{
+	background-color:;
+	color: #000;
+	padding-right:0px; 
+	padding-left:0px; 
+   	margin-right: auto;
+    margin-left: auto;
+}
+.container{
+	background-color:#fff;
+	color: #000;
+	padding-right:0px; 
+	padding-left:0px; 
+   	margin-right: auto;
+    margin-left: auto;
+}
+h1,h2,h3,h4,h5,h6{
+	/*font-weight:bold;*/
+	margin-bottom:15px;
+	margin-top:15px;
+	color:#000;
+	/*font-family:Courier New, Arial;*/
+}
+a{
+	text-decoration:none;
+	color: #ddd;
+}
+a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+.fix{overflow:hidden;}
+header{
+	width:100%;
+	background-color:#fff;
+}
+
+/*Responsive menu*/
+nav{background-color:#fff;min-height:50px}
+nav ul{margin:0;padding:0;list-style:none}
+nav ul li{float:left;border-right:2px solid #eef3f5;position:relative;}
+
+nav ul li:last-child{border-right:0px solid #fff}
+nav ul li a{display:block;padding:15px 25px;text-decoration:none;color:#000;}
+nav ul li a:hover{background:;color:#000;}
+
+/*This CSS id for Dropdown Menu*/
+nav ul li ul{position:absolute;left:-99999px;z-index:10000000}
+nav ul li:hover ul{left:0px;}
+nav ul li ul li{float:none;border-top:1px solid #7a7c7d;border-right:0px solid;border-left:0px solid;}
+nav ul li ul li:last-child{border-bottom:0px solid #fff;}
+nav ul li ul li a{display:block;padding:15px 37px;text-decoration:none;color:#000;background-color:#fff}
+nav ul li ul li a:hover{background:;color:#000;}
+
+
+/*------------*/
+.fsection{
+	background-color:#fff;
+	padding: 20px;
+	color: #000;
+	border-top: 2px solid gainsboro;
+}
+
+#top:hover{
+    transition: all 0.9s;
+}
+.top:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all 0.6s;
+    font-size:17px;
+    position: top;
+
+}
+
+
+.share_img img{
+	width: 45px;
+	height: 45px;
+	
+}
+.share_img img:hover{
+    background-color:#fff;
+    transition: all 0.6s;
+
+}
+
+section {
+    border:1px solid #eae8e8;
+    padding: 25px;
+    /*margin-top:5px;*/
+    margin-bottom:5px;
+    text-align: justify;
+    background-color:#fff;
+}
+section:hover {
+    box-shadow:2px 1px 2px 1px ;
+}
+article h2{
+    color: #000;
+    
+}
+article img{
+    width: 360px;
+    height: 210px;
+    
+}
+.color{
+	background-color:#3e2e2e;
+	padding: 15px;
+	color:#000
+}
+
+.col-md-9 p{
+	text-align:justify;
+}
+.theme-light.slider-wrapper {
+    background: #fff;
+    padding:0px; 
+}
+
+ul{
+	list-style: none;
+	color:#000;
+}
+
+
+.col-lg-12,.col-md-12,.col-sm-12{
+	padding:0px !important;
+}
+.mainContent{
+	margin-top:5px;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding:15px; 
+    padding-left:0px;
+}
+/*----------*/
+
+.form-style{
+	border: 3px solid grey;
+	padding: 20px;
+	margin-top: 160px;
+	color: white;
+}
+.input-group input[type="text"],.input-group input[type="email"],.input-group input[type="date"],.input-group input[type="password"]{
+    width: 315px; height:40px;border-radius: 5px!important;
+}
+.input-group input[type="submit"],.input-group input[type="button"],.input-group input[type="password"],.input-group input[type="file"]{
+   /* width: 150px; */
+}
+.input-group input[type="file"],.input-group input[type="number"],select{
+    width: 315px!important; height:40px;border-radius: 5px!important;
+}
+button[type="submit"]{
+    width: 315px;
+    height:40px;
+    border-radius: 5px!important;
+}
+.form-horizontal .control-label {
+    padding-top: 25px;
+    margin-bottom: 0;
+    text-align: right;
+}
+textarea{
+	width: 315px;border-radius: 5px!important;
+}
+.img-width ul li img{
+	width: 330px;
+	
+}
+.img-width section{
+	margin-left:23px;
+	padding-left: 0px;
+}
